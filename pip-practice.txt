@@ -1,0 +1,25 @@
+Run the following commands:
+
+pip install Django
+  Installs Django
+
+pip list
+  Lists installed packages & versions
+
+pip install Django (We know you already ran this one. What information do you see returned in terminal after this command?)
+  Says "Requirement already satisfied"
+
+pip freeze (What's the difference between freeze and list?)
+  Freeze outputs installed packages/versions in requirements format (xxx==1.2)
+
+First cd into your Desktop directory (cd ~/Desktop), then run this command: pip freeze > requirements.txt. What do you see when you ls? What's inside this file?
+  Creates the "requirements.txt" file. Contents are listing of installed packages and versions.
+
+pip uninstall Django
+  Uninstalled Django
+
+pip show Django
+  Returns nothing.
+
+pip search Flask. This one might take a moment to execute.
+  Looks like it lists available packages for Flask
